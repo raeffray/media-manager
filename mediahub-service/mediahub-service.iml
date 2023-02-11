@@ -1,0 +1,2083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true" LANGUAGE_LEVEL="JDK_17">
+    <exclude-output/>
+    <orderEntry type="inheritedJdk"/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/proto/main/java" isTestSource="false" generated="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/proto/main/grpc" isTestSource="false" generated="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/proto" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/build/extracted-protos/main" isTestSource="false" generated="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/build/extracted-include-protos/main" isTestSource="false" generated="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/proto" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/build/extracted-protos/test" isTestSource="true" generated="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/build/extracted-include-protos/test" isTestSource="true" generated="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/proto/test/java" isTestSource="true" generated="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+    </content>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy/4.0.6/559fc0d1ea7f82f0974712dfe33a16fd84fc71de/groovy-4.0.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy/4.0.6/5ed7dd1532f9008679a187381291d6bfabeace18/groovy-4.0.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-mongodb/3.0.1/35e7d682b361815d64f127d2ed3063c58a0c2e6a/spring-boot-starter-data-mongodb-3.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-mongodb/3.0.1/c63f1085773b15a7c58e854f3053156aa7d821eb/spring-boot-starter-data-mongodb-3.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty-shaded/1.35.0/c419ada1ae707864ef5bae790c98a84877f48a5a/grpc-netty-shaded-1.35.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty-shaded/1.35.0/28044097fc1f77bfca909edd24e78e7e270e1ea6/grpc-netty-shaded-1.35.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-services/1.35.0/e9d1fd7729b842cf5a376827ade7f12ad25e31fe/grpc-services-1.35.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-services/1.35.0/b036f684500ed318485d0ce25b5a294b86399951/grpc-services-1.35.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.35.0/6b527978b3d5f5ae16fbe7faa456c1a47d80de55/grpc-protobuf-1.35.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.35.0/46707bbb89d5a98ae639909b19ea6ed63daf74ff/grpc-protobuf-1.35.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.35.0/daa70fb26091a348bb6fa416e2b18dd1378eb1c3/grpc-stub-1.35.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.35.0/c462a02f08d58cf4fd50dbfb6eb1983dd6ba0512/grpc-stub-1.35.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.6.1/35f62815e87c32b01bf1ed8c5aa3f9e33a08c2f3/protobuf-java-util-3.6.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.6.1/eced0774e36d20dd06ddc6c800b3c6ab8d600ee/protobuf-java-util-3.6.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.tika/tika-parsers/1.11/355dc05d842ed223fc682da472229473ba706d68/tika-parsers-1.11.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.tika/tika-parsers/1.11/38b4d7f282d7db7c5967c8d33598f1acb49caf0/tika-parsers-1.11-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.8.0/92999e26e6534606b5678014e66948286298a35c/commons-io-2.8.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.8.0/eec0d4cb359930f0a7c8a9c5147019ef2cd77757/commons-io-2.8.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/198b882fdc2c72c89c63401d946f6ba46c3acea3/commons-lang3-3.12.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.7/158f5c255cd3e4408e795b79f7c3fbae9b53b7ca/aspectjweaver-1.9.7.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.7/8da21dfaf64693f4a9c269298dce04d12a7b10fd/aspectjweaver-1.9.7-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.googlecode.mp4parser/isoparser/1.0.2/6d9a5c5814ec67178dd1d5a25bae874d4697a5b8/isoparser-1.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.googlecode.mp4parser/isoparser/1.0.2/1bde01a7228625dbc0d7385f2dd2b28604ae174d/isoparser-1.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.9.7/ac42a7759a685a098b182bc0a39747f32f00adb0/aspectjrt-1.9.7.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.9.7/b81bf8b54cdbddf2f7f18d315b0f7fadc685ec00/aspectjrt-1.9.7-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.cxf/cxf-rt-rs-client/3.0.3/45eabb80eb52ac54111c71e0d6f34c9c93f99b0d/cxf-rt-rs-client-3.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.cxf/cxf-rt-rs-client/3.0.3/b910d3cefbff3b8d06a4d1dabd24e34dbff3a886/cxf-rt-rs-client-3.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.cxf/cxf-rt-frontend-jaxrs/3.0.3/284a35801aef259c0d61edb938865b5b125403ac/cxf-rt-frontend-jaxrs-3.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.cxf/cxf-rt-frontend-jaxrs/3.0.3/a670e7ba11ad86cb600ec477427f4254a3ccda7/cxf-rt-frontend-jaxrs-3.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.1/20a2c0583598d68b0835474bbe07792d4f3b219f/javax.annotation-api-1.3.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.1/498f0d91a7dc3cf79fb22f0bc07299da40cc7f7d/javax.annotation-api-1.3.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/3.0.1/c37bc07921436d1ef410ae4bd53747c721ae1c7c/spring-boot-starter-3.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/3.0.1/ce69d2e066622eec2650f834027705b103e8a302/spring-boot-starter-3.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-sync/4.8.1/6f9a8fb437110ef44a5475b13adb02de32a39ac3/mongodb-driver-sync-4.8.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-sync/4.8.1/c5dc39bd75fe4421c547144cd408e5d6b9fea226/mongodb-driver-sync-4.8.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/4.0.0/34bf73ab00146594fe38193388a0d09edeb7025a/spring-data-mongodb-4.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/4.0.0/1a7159dbfb2f0bad63b599590cc52256f5a3268/spring-data-mongodb-4.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.35.0/24fae70e8958b900d6cc0cd316b723e4c48e7860/grpc-core-1.35.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.35.0/2832dbe88e9d70d634e80ba50d4a5c0af6c9249a/grpc-core-1.35.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.35.0/c98b691404547ada8694f1cd4d9de0fd4f64815a/grpc-protobuf-lite-1.35.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.35.0/349d2281fbb951b2f84fa247586a550d46ad02e6/grpc-protobuf-lite-1.35.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.35.0/a237633b6ccff56e6f69208dba16e3c06f8ab611/grpc-api-1.35.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.35.0/31c6087b3e0203e264decd2a505225be7db05b7f/grpc-api-1.35.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/edu.ucar/netcdf4/4.5.5/675d63ecc857c50dd50858011b670160aa30b62/netcdf4-4.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/edu.ucar/netcdf4/4.5.5/f517b9f3aca305a58f357404fc9db784973f8fe8/netcdf4-4.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/edu.ucar/grib/4.5.5/cfe552910e9a8d57ce71134796abb281a74ead16/grib-4.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/edu.ucar/grib/4.5.5/92999d759e642bd9a287b63093564f6623259bad/grib-4.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/edu.ucar/cdm/4.5.5/af1748a3d024069cb7fd3fc2591efe806c914589/cdm-4.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/edu.ucar/cdm/4.5.5/a9963cd8953e705032bea062e83500f10a878921/cdm-4.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/30.0-android/12aff8dd7211f090c35e4c51a4256f1d5569c2e7/guava-30.0-android.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/30.0-android/313ef0e0f713e0a923d89d214bd1fa9e93c45985/guava-30.0-android-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.12.0/77295c02922228635d9bf64bd8793c2a70f6cceb/protobuf-java-3.12.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.12.0/e45a8cb37bb6c8ce2ed0c0af11d6ca40d02b3dd2/protobuf-java-3.12.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/2.0.1/20827628ea2b9f69ae22987b2aedb0050e9c470d/proto-google-common-protos-2.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/2.0.1/7f662d373f057cc23e97edbf082b883e7eee4314/proto-google-common-protos-2.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.4.0/32ecccc595e4e4d813a80ee9e3ab5813d65874eb/error_prone_annotations-2.4.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.4.0/3921a2ff59cbc7ed711b7925109d1f54ec3b8a70/error_prone_annotations-2.4.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.9.1/2cc2131b98ebfb04e2b2c7dfb84431f4045096b/gson-2.9.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.9.1/2f8e47a3905fcb3c0511d7c294c987d77803021e/gson-2.9.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.gagravarr/vorbis-java-tika/0.6/be5b08ff4c45632975646f286a1d13e325bec59a/vorbis-java-tika-0.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.gagravarr/vorbis-java-tika/0.6/367fba3e2225909c1cf529d659e745ec99ac5b35/vorbis-java-tika-0.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.tika/tika-core/1.11/d37a6b9080c8361e47b2050f69833fd61501ede9/tika-core-1.11.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.tika/tika-core/1.11/2967c4b6b1977e41dc1f61245b61812a4ec9dcbe/tika-core-1.11-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.healthmarketscience.jackcess/jackcess-encrypt/2.1.1/effacd7133ab76ee54c0488dd952b177bfeb85a3/jackcess-encrypt-2.1.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.healthmarketscience.jackcess/jackcess-encrypt/2.1.1/555958b9ecf65524341c08b7fab98cc79416ca60/jackcess-encrypt-2.1.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.healthmarketscience.jackcess/jackcess/2.1.2/b7f61fbb78919cb851868ce177d8fe626a6b4370/jackcess-2.1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.healthmarketscience.jackcess/jackcess/2.1.2/55a0b1a20c290564fb9052e1b5ad01d94e778299/jackcess-2.1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.sourceforge.jmatio/jmatio/1.0/df72993ea17d34c3bacd983558d2970a866abaf6/jmatio-1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.sourceforge.jmatio/jmatio/1.0/ad4536babac74b401af4655c7270afa9b0361fc0/jmatio-1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-dom/0.7.2/1c289aa264548a0a1f1b43685a9cb2ab23f67287/apache-mime4j-dom-0.7.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-dom/0.7.2/3a4e5b4b222268605813d0fd74f45ddbdcb9a21e/apache-mime4j-dom-0.7.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-core/0.7.2/a81264fe0265ebe8fd1d8128aad06dc320de6eef/apache-mime4j-core-0.7.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-core/0.7.2/df2e64024dbe47fa357cbf4f0e15daa28dd7c14b/apache-mime4j-core-0.7.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.10/5eeb27c57eece1faf2d837868aeccc94d84dcc9a/commons-compress-1.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.10/f6e0a51b510eefa6448fd331b01915e82eb9f44/commons-compress-1.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.tukaani/xz/1.5/9c64274b7dbb65288237216e3fae7877fd3f2bee/xz-1.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.tukaani/xz/1.5/66cf970ae7a73d9c3eb7d0ad3e901c43591139c3/xz-1.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-scratchpad/3.13/9d763275e6c7fa05d47e2581606748669e88c55/poi-scratchpad-3.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-scratchpad/3.13/d9f81fcfdb07f49e1177cdf50bcad207243788b3/poi-scratchpad-3.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.13/c364a8f5422d613e3a56db3b4b889f2989d7ee73/poi-ooxml-3.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.13/a33de037e9c3d7147b56e80425621b97b6f05686/poi-ooxml-3.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.13/f59f504ba8c521e61e25f417ec652fd485010f3/poi-3.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.13/a400503268b807b06ce712bb99ae47710c21fb55/poi-3.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/edu.ucar/httpservices/4.5.5/ee5f217be599e5e03f7f0e55e03f9e721a154f62/httpservices-4.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/edu.ucar/httpservices/4.5.5/e02932eec7c1fa530dea643a8bfe22971e1b96c8/httpservices-4.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.14/6662758a1f1cb1149cf916bdac28332e0902ec44/httpmime-4.5.14.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.14/c13f53f11ae71339906acec9a746ccf0bf57dee0/httpmime-4.5.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.14/1194890e6f56ec29177673f2f12d0b8e627dec98/httpclient-4.5.14.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.14/14321a360aa0e037c56d4c820747a84954d9196e/httpclient-4.5.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/843bc57fd042051e994846da8167bb7ca677a6d/commons-codec-1.15-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.10/bc5d1254495be36d0a3b3d6c35f88d05200b9311/pdfbox-1.8.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.10/907d94404e6c9451f2005b274a82f6dd819e5d50/pdfbox-1.8.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcmail-jdk15on/1.52/4995a870400e1554d1c7ed2afcb5d198fae12db9/bcmail-jdk15on-1.52.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcmail-jdk15on/1.52/9031125efc6f41ec12f20e2e034e83b0bc3ebd0a/bcmail-jdk15on-1.52-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.52/b8ffac2bbc6626f86909589c8cc63637cc936504/bcpkix-jdk15on-1.52.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.52/c23c09c720004a3e1ad5e0d5b16d452bb4f3e3ae/bcpkix-jdk15on-1.52-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.52/88a941faf9819d371e3174b5ed56a3f3f7d73269/bcprov-jdk15on-1.52.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.52/9869b339e9d94c23c2256ce9f06c50c5dba4e4a8/bcprov-jdk15on-1.52-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.ccil.cowan.tagsoup/tagsoup/1.2.1/5584627487e984c03456266d3f8802eb85a9ce97/tagsoup-1.2.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.ccil.cowan.tagsoup/tagsoup/1.2.1/31cbf81bece906e382034d2b04e2e5c47e864c17/tagsoup-1.2.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/da08b8cce7bbf903602a25a3a163ae252435795/asm-5.0.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/112ff54474f1f04ccf1384c92e39fdc566f0bb5e/asm-5.0.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.drewnoakes/metadata-extractor/2.8.0/c771dba842e459b704081212c66182eb351728de/metadata-extractor-2.8.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.drewnoakes/metadata-extractor/2.8.0/951ce42c0258c855dfee56a5b6577e7f66416258/metadata-extractor-2.8.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/de.l3s.boilerpipe/boilerpipe/1.1.0/f62cb75ed52455a9e68d1d05b84c500673340eb2/boilerpipe-1.1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/de.l3s.boilerpipe/boilerpipe/1.1.0/769066c705b459351ad8b3a49d5e1581e5578157/boilerpipe-1.1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/rome/rome/1.0/22b33347f315833e9348cec2751af1a5d5656e4/rome-1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/rome/rome/1.0/195e9a962672c32943ec8883e010b6a5ea568745/rome-1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.gagravarr/vorbis-java-core/0.6/71deedbdfe6a1b0dcadd6c5ae335e3e9b427524c/vorbis-java-core-0.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.gagravarr/vorbis-java-core/0.6/cacfe30d3462284c559dc07aabbd45c5bd12077/vorbis-java-core-0.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/cd49678784c46aa8789c060538e0154013bb421b/juniversalchardet-1.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/77979eaa98f90806f984155f44f63cc1fb60ac25/juniversalchardet-1.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.codelibs/jhighlight/1.0.2/992a8a8add10468930efc1f110f2895f68258a1e/jhighlight-1.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.codelibs/jhighlight/1.0.2/b721e136ac6ff410a5ebca2755d7d8c25e6adf7f/jhighlight-1.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.pff/java-libpst/0.8.1/ad31986653dac9cb5132ea5b2999c20b4b286255/java-libpst-0.8.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.pff/java-libpst/0.8.1/3c72ce76f314d442b65d06d005e8b0dab1b5078b/java-libpst-0.8.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.github.junrar/junrar/0.7/18cc717b85af0b12ba922abf415c2ff4716f8219/junrar-0.7.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.github.junrar/junrar/0.7/a2a861c38317e54e85798c83c9652d23f72e95aa/junrar-0.7-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.opennlp/opennlp-tools/1.5.3/826d34168b0e4870c9f599ed7f2b8fee4194ba3b/opennlp-tools-1.5.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.opennlp/opennlp-tools/1.5.3/cb4360825c39c44da764a693b2ce21719072ef09/opennlp-tools-1.5.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.3/8dfb9facd0830a27b1b5f29f84593f0aeee7773b/commons-exec-1.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.3/efd2543e352e55ce5a685eed6db8af028b737905/commons-exec-1.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/15bba08e3a239d54b68209c001f9c911559d2fed/json-simple-1.1.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/d1ffca6e2482b002702c6a576166fd685e3370e3/json-20140107.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/f53f91bc9c21fef71745450dea5200e423e38370/json-20140107-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-csv/1.0/8a0796ad6541a144eb1c00b93e06fbac03a9f313/commons-csv-1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-csv/1.0/8f6d4b9b4c9b04b1e91cc4b05f4a7064978c81c9/commons-csv-1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.sis.storage/sis-netcdf/0.5/2b416e4506caebe7df6dd21b878dae888e0eea39/sis-netcdf-0.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.sis.storage/sis-netcdf/0.5/3e4017d59b75be9accbf81a6cc0b5a802de55206/sis-netcdf-0.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.sis.storage/sis-storage/0.5/29d1ea6422b68fbfe1f1702f122019ae376ee2c8/sis-storage-0.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.sis.storage/sis-storage/0.5/359913e858aba6b28e3a9d03906e58904562c62a/sis-storage-0.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.sis.core/sis-referencing/0.5/377246c70fd858346fab8a0e554bed3b3cfcde70/sis-referencing-0.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.sis.core/sis-referencing/0.5/34edbf5e352a3a769f603aa240904e78b0a7ca43/sis-referencing-0.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.sis.core/sis-metadata/0.5/1bbd65e52d27b61c64944b9275c44ccd79f267a7/sis-metadata-0.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.sis.core/sis-metadata/0.5/67110e9338648b0c1609d189406300e63e449769/sis-metadata-0.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.sis.core/sis-utility/0.5/aaea81deda0e3c7ca2602e7fb9459bcc19894ecf/sis-utility-0.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.sis.core/sis-utility/0.5/114ddfa1c3fd131f2fe69af7ee875c7bde72b05c/sis-utility-0.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.opengis/geoapi/3.0.0/a04e0f361627fb33a140b5aa4c019741f905577/geoapi-3.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.opengis/geoapi/3.0.0/7fb39af6576e15709189ee50a2496579f508528f/geoapi-3.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/3.0.1/7705d0e28d18b79b25587fb88eade85287a10513/spring-boot-autoconfigure-3.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/3.0.1/1193e9f7bd6212fac8d64e48157b9a214bb09960/spring-boot-autoconfigure-3.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.0.1/9a7c15dfec7a5207965c8893abfd12fa0eac1d38/spring-boot-3.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.0.1/80dccba2a8fc1f98bdbbc2dc88d8e857ccb1256a/spring-boot-3.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/3.0.1/bf285578b44ecddaeb32f5d57a08fa5be60fc69f/spring-boot-starter-logging-3.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/3.0.1/6afe389cd2a6c130f0b71648f325c889b499d72b/spring-boot-starter-logging-3.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/48b9bda22b091b1f48b13af03fe36db3be6e1ae3/jakarta.annotation-api-2.1.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/3beea3ed2e687d9bd8a78c00e18951fffccefe90/jakarta.annotation-api-2.1.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/6.0.3/e4673092d71ac1aa36627305d269eaa670d10c9e/spring-tx-6.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/6.0.3/26082aafc533926c6469318a007aa8b77dc68cbd/spring-tx-6.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/6.0.3/a111998c7ba31ea6cd25b23e5a9ea73582af1f89/spring-context-6.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/6.0.3/eef77d624d432dc81df811bacea9f29f9734aa97/spring-context-6.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/3.0.0/79f898c8a9d926f6434ae53c9a927a299e079663/spring-data-commons-3.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/3.0.0/2c91c1ff6ab0937f185ff707226b9a11a6a9fae3/spring-data-commons-3.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/6.0.3/ba05b9129c800e7a3febf795724d0be7d4995a7e/spring-aop-6.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/6.0.3/4745bcc0aa315e386f34d64a4d8a900eac8ba640/spring-aop-6.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/6.0.3/7ca05b6618b149da38fde262a0d98fc8a6f75d02/spring-beans-6.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/6.0.3/2803e30b0264b21d88a31c3ef04d637a3e0df934/spring-beans-6.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/6.0.3/778ab1fedad855d9d6c79e3e2368b29818589a59/spring-expression-6.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/6.0.3/8202cd9fa5c40b3db923403b647563d4d7e9d2d3/spring-expression-6.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.0.3/5314570bb619e4821a3ca0dad28702f9cb7fc114/spring-core-6.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.0.3/1b7e5af19a6b82462b7bdc590653834991c932c1/spring-core-6.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.33/2cd0a87ff7df953f810c344bdf2fe3340b954c69/snakeyaml-1.33.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.33/97257a0e34679175cc00444a64fa42d6bb53e23f/snakeyaml-1.33-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/4.8.1/7e62cdd7d83ef1379e5c2d338ac4a9b788a3e5f0/mongodb-driver-core-4.8.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/4.8.1/9ea533f91c20ca3a37e2439947ef8b8dc3458b29/mongodb-driver-core-4.8.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/4.8.1/5494657ee9317b3630f95f70f3a67166fe01ed83/bson-4.8.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/4.8.1/c6deedfcab18ab75f822d2a34091d52ac243ea57/bson-4.8.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.3.2/18a6d6b5a40b77bd060b34cb9f2acadc4bae7c8a/quartz-2.3.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.3.2/c22b720ab9a92367424cda3d628fea758dd7e4cf/quartz-2.3.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.6.2/3baecd92015a9f8fe4cf51c8b5d3a5bddcdd3e86/ehcache-core-2.6.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.6.2/1c03312f7cfdbe966f92524d3536255ff74d5d45/ehcache-core-2.6.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.4.5/28e7dc0b208d6c3f15beefd73976e064b4ecfa9b/logback-classic-1.4.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.4.5/3e5618488e850ffa5855e04953ccf20760115571/logback-classic-1.4.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.19.0/30f4812e43172ecca5041da2cb6b965cc4777c19/log4j-to-slf4j-2.19.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.19.0/6da7f8160a76c69a3f904272e31509d6ae45881e/log4j-to-slf4j-2.19.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/2.0.6/c4d348977a83a0bfcf42fd6fd1fee6e7904f1a0c/jul-to-slf4j-2.0.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/2.0.6/f2e316f1b188afaed5fff35ae9cca8e5985b1d7b/jul-to-slf4j-2.0.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.6/88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953/slf4j-api-2.0.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.6/e5127f7758d47c789645d37725ab9262ea38873e/slf4j-api-2.0.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.35.0/e1a28ecceee6b6c226a194bde5357b8eeb7b54e0/grpc-context-1.35.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.35.0/57c34fe0d81825b667e96c69f9fdbf9a2994f3d2/grpc-context-1.35.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1d064e61aad6c51cc77f9b59dc2cccc78e792f5a/failureaccess-1.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-compat-qual/2.5.5/435dc33e3019c9f019e15f01aa111de9d6b2b79c/checker-compat-qual-2.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-compat-qual/2.5.5/54d4253d4d8723096a95b7551bd5639e7e2affba/checker-compat-qual-2.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/d26c56180205cbb50447c3eca98ecb617cf9f58b/j2objc-annotations-1.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/fontbox/1.8.10/41776c7713e3f3a1ce688bd96459fc597298c340/fontbox-1.8.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/fontbox/1.8.10/f38910abc950a87bf6e3ed8869802ded41c059e0/fontbox-1.8.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-vfs2/2.0/b5af3b9c96b060d77c68fa5ac9384b402dd58013/commons-vfs2-2.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-vfs2/2.0/c29b15a44ebae8501f0e5a892736b27857a4f968/commons-vfs2-2.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/jempbox/1.8.10/40df4e4ca884aadc20b82d5abd0a3679774c55a6/jempbox-1.8.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/jempbox/1.8.10/f787eec65219a11ac4203cc7eb3d2a2d24cb3a3e/jempbox-1.8.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml-schemas/3.13/56fb0b9f3ffc3d7f7fc9b59e17b5fa2c3ab921e7/poi-ooxml-schemas-3.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.adobe.xmp/xmpcore/5.1.2/55615fa2582424e38705487d1d3969af8554f637/xmpcore-5.1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.adobe.xmp/xmpcore/5.1.2/ea3ab4092822df662b62d1f07b9748e83ebbe6f0/xmpcore-5.1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/jdom/jdom/1.0/a2ac1cd690ab4c80defe7f9bce14d35934c35cec/jdom-1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/jdom/jdom/1.0/662abe0196cf554d4d7374f5d6382034171b652c/jdom-1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging-api/1.1/7d4cf5231d46c8524f9b9ed75bb2d1c69ab93322/commons-logging-api-1.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.cxf/cxf-rt-transports-http/3.0.3/d0fe9957966496bcc9550dddfbe5100d84105d75/cxf-rt-transports-http-3.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.cxf/cxf-rt-transports-http/3.0.3/feb66503b8b71703e614244af293c37ea01d61c2/cxf-rt-transports-http-3.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.cxf/cxf-core/3.0.3/d1c97f02c6ca0bab8b3c5315237c510523b86310/cxf-core-3.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.cxf/cxf-core/3.0.3/96ffd17d76f9990d13fcddaf523b4fa8a3782f5f/cxf-core-3.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.opennlp/opennlp-maxent/3.0.3/55e39e6b46e71f35229cdd6950e72d8cce3b5fd4/opennlp-maxent-3.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.opennlp/opennlp-maxent/3.0.3/599de6471c979ed2d754b18a06ce6f529827216a/opennlp-maxent-3.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.sf.jwordnet/jwnl/1.3.3/7108e5b6a8875fe0488d942238575407c7ab8649/jwnl-1.3.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.sf.jwordnet/jwnl/1.3.3/66183d789bb167f881b1677ce32147ed383e3458/jwnl-1.3.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/edu.ucar/udunits/4.5.5/d8c8d65ade13666eedcf764889c69321c247f153/udunits-4.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/edu.ucar/udunits/4.5.5/5c329e6f633c8ba20fc4d55ba046a40b92b0f6db/udunits-4.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.jcip/jcip-annotations/1.0/afba4942caaeaf46aab0b976afd57cc7c181467e/jcip-annotations-1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.jcip/jcip-annotations/1.0/d853625d8001c00d40abed553e670279504699f9/jcip-annotations-1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.1.0/1c12d070e602efd8021891cdd7fd18bc129372d4/jna-4.1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.1.0/28a5d592b494fe54c120c64689087e779a7bf55b/jna-4.1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.jdom/jdom2/2.0.6.1/dc15dff8f701b227ee523eeb7a17f77c10eafe2f/jdom2-2.0.6.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.jdom/jdom2/2.0.6.1/2493435437502ccc285afeb63b4f3d7a3a942afd/jdom2-2.0.6.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.7.2/d7e275ba05aa380ca254f72d0c0ffebaedc3adcf/jsoup-1.7.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.7.2/833f425e7a40d7fc88922370a072965dda8ee216/jsoup-1.7.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/edu.ucar/jj2000/5.2/b857c9bdf12fe17d8ef98218eaa39e6a0c6ff493/jj2000-5.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/edu.ucar/jj2000/5.2/1d30570cbee51b17c22be76a192eed757776cc22/jj2000-5.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.itadaki/bzip2/0.9.1/47ca95f71e3ccae756c4a24354d48069c58f475c/bzip2-0.9.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.itadaki/bzip2/0.9.1/655282fbaee3bcd3b79d9383b0abff561bb496f0/bzip2-0.9.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.16/51cf043c87253c9f58b539c9f7e44c8894223850/httpcore-4.4.16.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.16/229e4c0eae80465381ae02adf61bca5558360777/httpcore-4.4.16-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.2/a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d/joda-time-2.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.2/ad622e3cfe39319ea53b183aa5615f96ff346584/joda-time-2.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.35/47592e181b0bdbbeb63029e08c5e74f6803c4edd/jcommander-1.35.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.35/a80acda9d5c2aa80afb8b6f858968b24a178f4bc/jcommander-1.35-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/javax.measure/jsr-275/0.9.3/ab2fb094fc5297ae5636ef6ed0d6051d5a656588/jsr-275-0.9.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/6.0.3/ce5a18b010a99c58e98d1fa993dcec2148a361a6/spring-jcl-6.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/6.0.3/26e89c508d658f09a1454175de8ca5911270815a/spring-jcl-6.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/2.6.0/29e80d2dd51f9dcdef8f9ffaee0d4dc1c9bbfc87/xmlbeans-2.6.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.maven.scm/maven-scm-provider-svnexe/1.4/b3213b40157b701ba079b738baac391e41418c18/maven-scm-provider-svnexe-1.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.maven.scm/maven-scm-provider-svnexe/1.4/15a971532cb654117767b4285c6d0ad8d7006ca5/maven-scm-provider-svnexe-1.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.maven.scm/maven-scm-provider-svn-commons/1.4/54bc1dc24c5d205b4d251a83f4ea63808c21a628/maven-scm-provider-svn-commons-1.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.maven.scm/maven-scm-provider-svn-commons/1.4/bc76e700d77e94f55bbb2fa90c5ba8718d6652dc/maven-scm-provider-svn-commons-1.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.maven.scm/maven-scm-api/1.4/e294693ce217bd6f470b728127854e6ca787fd29/maven-scm-api-1.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.maven.scm/maven-scm-api/1.4/d6d12c73b996ffb43fa57d40fc5ebb48d237304d/maven-scm-api-1.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/woodstox-core-asl/4.4.1/84fee5eb1a4a1cefe65b6883c73b3fa83be3c1a1/woodstox-core-asl-4.4.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/woodstox-core-asl/4.4.1/ffa1c21ea3509859bb54d62e3b8254a3263c7fb9/woodstox-core-asl-4.4.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.ws.xmlschema/xmlschema-core/2.1.0/93415557e2867469c33be98ab330655dd714297d/xmlschema-core-2.1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.ws.xmlschema/xmlschema-core/2.1.0/f0a12ecc07f75352b7f086d7930347901ca258d6/xmlschema-core-2.1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/104e9c2b5583cfcfeac0402316221648d6d8ea6b/javax.ws.rs-api-2.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/a20db7429fd8dfff74335ec867472b71c345049b/javax.ws.rs-api-2.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.15/6ef5abe5f1b94ac45b7b5bad42d871da4fda6bbc/mchange-commons-java-0.2.15.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.15/dbcfc59448950a4899d9ad88f0a916d5f1e420a0/mchange-commons-java-0.2.15-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.4.5/e9bb2ea70f84401314da4300343b0a246c8954da/logback-core-1.4.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.4.5/cd195787034ca9e33fc2fb5d0f55ae19fc6d5775/logback-core-1.4.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.19.0/ea1b37f38c327596b216542bc636cfdc0b8036fa/log4j-api-2.19.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.19.0/e50c05b05437e7f5fc11609b8366a5e151f74461/log4j-api-2.19.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/1.5.6/8fb6b798a4036048b3005e058553bf21a87802ed/plexus-utils-1.5.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/1.5.6/f73353c888b7c6f938ddc17423087aba4f50d33e/plexus-utils-1.5.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/regexp/regexp/1.3/973df2b78b67bcd3144c3dbbb88da691065a3f8d/regexp-1.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/regexp/regexp/1.3/51ba0f7629a69bf12d31177f409a78672069f632/regexp-1.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.4/ac19014b1e6a7c08aad07fe114af792676b685b7/stax2-api-3.1.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.4/b40604d61c01cc081a4a7bdfc562aa9847ee8857/stax2-api-3.1.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.19/1536e1a8fd552dc05f12b5f0827fbb2ee3d5a89b/animal-sniffer-annotations-1.19.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.19/6230414d024899ce5552c9c30ce49163e1906dbd/animal-sniffer-annotations-1.19-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mongodb/bson-record-codec/4.8.1/339c92291f24acf896334ba9a2a5bf52fd462115/bson-record-codec-4.8.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mongodb/bson-record-codec/4.8.1/20f8bc6f1e1ced4bcb4ee90f729da57f4efa6bbc/bson-record-codec-4.8.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/a1678ba907bf92691d879fef34e1a187038f9259/annotations-4.1.1.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/deb22daeb37bdcbc14230aeaeddce38320d6d0f9/annotations-4.1.1.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.23.0/b813b7539fae6550541da8caafd6add86d4e22f/perfmark-api-0.23.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.23.0/d4f6ec422fd2f00fffba00aa7167f1ed654cf1f0/perfmark-api-0.23.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/3.0.1/92d4e6de86bf76db3bd5c40155ede74c35f3323f/spring-boot-starter-test-3.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/3.0.1/f6b3318c82451814458e2e6cdf5d7640c7550567/spring-boot-starter-test-3.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-test/6.0.1/e2f864405c92ddd8249ed4bd79356e271630407c/spring-security-test-6.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-test/6.0.1/ea3535295d7d9de6ca898c00d6c06c9194dea611/spring-security-test-6.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4/1.7.4/18cc40fb5e3997ad766405986bcbb64d6a4551a4/powermock-module-junit4-1.7.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4/1.7.4/2cb09ea43bf798e98e0fd70a3ccfe532c5e12829/powermock-module-junit4-1.7.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4-common/1.7.4/53a078efeb50a0a8ab80c2eb3ecf83219d64008c/powermock-module-junit4-common-1.7.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4-common/1.7.4/2c9516e4d397d95fdb2031f8b97351563708b0ab/powermock-module-junit4-common-1.7.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/33987872a811fe4d4001ed494b07854822257f42/junit-4.13.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito2/1.7.4/8ac438f60fceacba48113b13d1546eb9b8443be9/powermock-api-mockito2-1.7.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito2/1.7.4/4f74c9043aeb06e75b663228335299e2979344d3/powermock-api-mockito2-1.7.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/4.8.1/e393aa62eca2244a535b03842843f2f199343d1f/mockito-junit-jupiter-4.8.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/4.8.1/6aa189452f42167be3dc9ce5ac029df0f15ba0e5/mockito-junit-jupiter-4.8.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito-common/1.7.4/7db8344c2c34baab81ac3f6e9ad1cf45e1d08d37/powermock-api-mockito-common-1.7.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito-common/1.7.4/34b9b04d9d3a6ef8c541f78cfbea91b639a0f652/powermock-api-mockito-common-1.7.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-support/1.7.4/688c8cb384a31060fc04130eec1c6e68546d0e3e/powermock-api-support-1.7.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-support/1.7.4/41af0b9ee7044a1fa0b278d4d47bbe1683ceabef/powermock-api-support-1.7.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-core/1.7.4/2170b16d933fdd9815bc1f3871771ab30e9ad2fe/powermock-core-1.7.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-core/1.7.4/1a55f33f64b4d831c85ce48dbb5ea53d04524123/powermock-core-1.7.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.23.4/a35b6f8ffcfa786771eac7d7d903429e790fdf3f/mockito-core-2.23.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.23.4/6878fee8002a77fc3d29d2407d9cb059e3792827/mockito-core-2.23.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.7.0/f9d7d9659f2694e61142046ff8a216c047f263e8/json-path-2.7.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.7.0/f98abbc2176cd35716cbad60d7f1d4c97ac89dd1/json-path-2.7.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.4.8/7c62f5f72ab05eb54d40e2abf0360a2fe9ea477f/json-smart-2.4.8.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.4.8/399ee58414b3686be3d4f3b59f6bc11d30d2309e/json-smart-2.4.8-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/2.4.8/6e1bee5a530caba91893604d6ab41d0edcecca9a/accessors-smart-2.4.8.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/2.4.8/f8801f70a860e4e3a9485f9923dde4204cb70c96/accessors-smart-2.4.8-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.1/a99500cf6eea30535eeac6be73899d048f8d12a8/asm-9.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.1/3fb15dd478bf8dcb039aa0d035f9fff9e4229c61/asm-9.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/3.0.1/26346db6db873dd9a7737691b66727cf6e0984d9/spring-boot-test-autoconfigure-3.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/3.0.1/cb8224b9c447fed311ead9cadbb9489180d5b696/spring-boot-test-autoconfigure-3.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/3.0.1/1ad6a6b50844ac5a3290b40963b7151b2684a3d3/spring-boot-test-3.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/3.0.1/aea02f833384fada1076c73d2bf26ed6ea1ea638/spring-boot-test-3.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/4.0.0/bbb399208d288b15ec101fa4fcfc4bd77cedc97a/jakarta.xml.bind-api-4.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/4.0.0/b8e46353907cfaccef843fff62d72476f8ad88ce/jakarta.xml.bind-api-4.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.23.1/d2bb60570f5b3d7ffa8f8000118c9c07b86eca93/assertj-core-3.23.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.23.1/157b30660c8be702e3b5ba4f73311578c6333635/assertj-core-3.23.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/2.2/3f2bd07716a31c395e2837254f37f21f0f0ab24b/hamcrest-core-2.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/2.2/260c1224a39af35b0dbf85201647125f25f1b40d/hamcrest-core-2.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.2/1820c0968dba3a11a1b30669bb1f01978a91dedc/hamcrest-2.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.2/a0a13cfc629420efb587d954f982c4c6a100da25/hamcrest-2.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.9.1/ffcd1013edaeee112be11fcddeb38882d79238de/junit-jupiter-params-5.9.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.9.1/f48e6a3bc9ac5acdde88951f83beb44adc78c8c5/junit-jupiter-params-5.9.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.1/7bb53fbc0173e9f6a9d21d58297af94b1f2f9ce1/junit-jupiter-api-5.9.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.1/ba8516b330a32b4957cdc6ad0cd1a594ec154fd2/junit-jupiter-api-5.9.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.1/3145f821b5cd10abcdc5f925baa5fffa6f1b628f/junit-platform-commons-1.9.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.1/5d2f1078b36f69b0cbacc1efdbf073517c0c7d33/junit-platform-commons-1.9.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.9.1/9274d3757e224bc02eae367bd481062a263c150b/junit-jupiter-5.9.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.9.1/5fd01c33132462aab3905cb74bd1097a713ab91a/junit-jupiter-5.9.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.1/6d842d0faf4cf6725c509a5e5347d319ee0431c3/jsonassert-1.5.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.1/56cfa73a7ab13fbb8d433570add90f087d40e243/jsonassert-1.5.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/6.0.3/b7be928715aefbcaf44c2ad1ca19c86615886ba0/spring-test-6.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/6.0.3/e4d75b5cc21a7b2bdc3cf2a5a4c56f64b06be06b/spring-test-6.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/6.0.1/3f0c00dcddb23941983f844cad3221141f1b873a/spring-security-web-6.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/6.0.1/4d67ce8aef738a0c0f72a54b4b2fe3db7428034b/spring-security-web-6.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/6.0.1/7d54b69c31cee7ff8d68dfb852cd904ed65af3cd/spring-security-core-6.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/6.0.1/ee0c7bcd77d2a47e38d532ed062029389d955fdc/spring-security-core-6.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/6.0.3/484265303687177c5952e4cb8c141333dc89c7fb/spring-web-6.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/6.0.3/10abed72688a3016f569f509f69939445a31f8d0/spring-web-6.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.9.0/8959725d90eecfee28acd7110e2bb8460285d876/xmlunit-core-2.9.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.9.0/a4d86ea2f1316957c4635e34ad105aacea04bb55/xmlunit-core-2.9.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.12.20/6ec3b8bccc4c988790d8cde5baad3b95609ef136/byte-buddy-1.12.20.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.12.20/5788a6bdd03e004f813904fdfa578f3f6a1280d0/byte-buddy-1.12.20-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.12.20/c37341e04a529c7263ff3093ecdceaa4ab39b489/byte-buddy-agent-1.12.20.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.12.20/98f8bd77335bfc8204a7bb7d349ef28170c5a91b/byte-buddy-agent-1.12.20-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-reflect/1.7.4/a484263077a371165c2fa96aa52935cd580a3e3c/powermock-reflect-1.7.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-reflect/1.7.4/2a85db8a2c57664522967f53fa5c9f38e5fd4533/powermock-reflect-1.7.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/639033469776fd37c08358c6b92a4761feb2af4b/objenesis-2.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/96614f514a1031296657bf0dde452dc15e42fcb8/objenesis-2.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/2.1.0/a58861b5deac5e151140511cf57d6b80a83f2d20/jakarta.activation-api-2.1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/2.1.0/f45e5d38e1145ba5de24f8ecf6c731291bbb167/jakarta.activation-api-2.1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/bf42d7e47a3228513b626dd7d37ac6f072aeca4f/android-json-0.0.20131108.vaadin1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/6.0.1/2384513fec136174d4be8ebaf3a2cf9aecef5416/spring-security-crypto-6.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/6.0.1/ce8ab7da405905c525ae3ba522576f29c659457f/spring-security-crypto-6.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.10.2/5b63205c0e9f3acf4b84f852ea707f9f9fffda6f/micrometer-observation-1.10.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.10.2/6dbc2a552571469b58c90b2b96fe7e424405d8fc/micrometer-observation-1.10.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/41d55b3c2254de9837b4ec8923cbd371b8a7eab5/opentest4j-1.2.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/a231e0d844d2721b0fa1b238006d15c6ded6842a/apiguardian-api-1.1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/e0787a997746ac32639e0bf3cb27af8dce8a3428/apiguardian-api-1.1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.10.2/3a97e1874b8ca9c1c08f67d58bf7d567bb748601/micrometer-commons-1.10.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.10.2/f80e3a2e763f22f258ad6f096f4777b25dd7e7ca/micrometer-commons-1.10.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.21.0-GA/598244f595db5c5fb713731eddbb1c91a58d959b/javassist-3.21.0-GA.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.21.0-GA/81fefbd46ba6a18fc7af83b9c60b28c0862cd492/javassist-3.21.0-GA-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.19/1536e1a8fd552dc05f12b5f0827fbb2ee3d5a89b/animal-sniffer-annotations-1.19.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.19/6230414d024899ce5552c9c30ce49163e1906dbd/animal-sniffer-annotations-1.19-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.9.1/1bf771097bde296c3ab174861954e8aafaaf2e94/junit-jupiter-engine-5.9.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.9.1/bc082b8e8a1f40d6846fccb59867c6524bf08155/junit-jupiter-engine-5.9.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.1/83591e5089d6cea5f324aa3ecca9b19d5a275803/junit-platform-engine-1.9.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.1/bda902e43fe1f62674224452defd31f4c251e29d/junit-platform-engine-1.9.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mongodb/bson-record-codec/4.8.1/339c92291f24acf896334ba9a2a5bf52fd462115/bson-record-codec-4.8.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/org.mongodb/bson-record-codec/4.8.1/20f8bc6f1e1ced4bcb4ee90f729da57f4efa6bbc/bson-record-codec-4.8.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/a1678ba907bf92691d879fef34e1a187038f9259/annotations-4.1.1.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/deb22daeb37bdcbc14230aeaeddce38320d6d0f9/annotations-4.1.1.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.23.0/b813b7539fae6550541da8caafd6add86d4e22f/perfmark-api-0.23.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/raeffray/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.23.0/d4f6ec422fd2f00fffba00aa7167f1ed654cf1f0/perfmark-api-0.23.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+  <component name="ModuleRootManager"/>
+</module>

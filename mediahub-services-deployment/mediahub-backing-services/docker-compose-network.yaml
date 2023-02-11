@@ -1,0 +1,27 @@
+version: '3.9'
+services:
+  mediahub-service:
+    image: io-kurumim/mediahub:latest
+    ports:
+      - 50060:50060
+      - 9875:9875
+    depends_on:
+      - mongodb
+    deploy:
+      mode: replicated
+      replicas: 3
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      APP_MEDIA_BUFFER_SIZE: 60124
+      JAVA_TOOL_OPTIONS: "-Dcom.sun.management.jmxremote.ssl=false \
+            -Dcom.sun.management.jmxremote.authenticate=false \
+            -Dcom.sun.management.jmxremote.port=9875 \
+            -Dcom.sun.management.jmxremote.rmi.port=9875 \
+            -Dcom.sun.management.jmxremote.host=0.0.0.0 \
+            -Djava.rmi.server.hostname=0.0.0.0"
+    networks:
+      - mediahub-network
+
+networks:
+  mediahub-network:
+    external: true

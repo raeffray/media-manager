@@ -1,0 +1,24 @@
+version: '3.9'
+services:
+
+  mongodb:
+    image: mongo:latest
+    container_name: mediahub-db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: adminuser
+      MONGO_INITDB_ROOT_PASSWORD: qwaszx12
+      MONGO_INITDB_DATABASE: mediahub-medias
+      MONGO_INITDB_NET_BUFFER_POOL_SIZE: 0
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongo-data:/data/db
+      - ./mongo-config:/data/install
+    command: --auth
+    networks:
+      - db-network
+
+networks:
+  services-network:
+    name: mediastore-network
+    driver: overlay

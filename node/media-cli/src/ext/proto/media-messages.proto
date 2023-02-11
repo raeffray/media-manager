@@ -1,0 +1,42 @@
+syntax = "proto3";
+//
+option java_package = "jp.woven.media.messages";
+option java_multiple_files = true;
+
+message CreateMediaResponse {
+  bool success = 1;
+}
+
+message GetMediaRequest {
+  string originalName = 1;
+}
+
+message ListMediaRequest {
+  string resourceOwnerId = 1;
+}
+
+message ListMediaResponse {
+  repeated Media medias = 1;
+}
+
+message Media {
+  string originalName = 1;
+  int64 size = 2;
+  string hash = 3;
+}
+
+message MediaChunk {
+  bytes content = 1;
+  string originalName = 2;
+  int64 totalSize = 3;
+  string hash = 4;
+}
+
+
+message DeleteMediaRequest {
+  string originalName = 1;
+}
+
+message DeleteMediaResponse {
+  bool success = 1;
+}

@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "__dirname": true,
+        "process": true
+    },
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-async-promise-executor": "off"
+    }
+}

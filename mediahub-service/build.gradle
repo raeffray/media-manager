@@ -1,0 +1,80 @@
+plugins {
+    id 'groovy'
+    id 'idea'
+    id 'org.springframework.boot' version '3.0.1'
+    id 'io.spring.dependency-management' version '1.1.0'
+    id "com.google.protobuf" version "0.9.1"
+}
+
+group 'org.example'
+version 'unspecified'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+    //implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.apache.groovy:groovy'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+    implementation 'io.grpc:grpc-netty-shaded:1.35.0'
+    implementation 'io.grpc:grpc-protobuf:1.35.0'
+    implementation 'io.grpc:grpc-stub:1.35.0'
+    implementation 'io.grpc:grpc-services:1.35.0'
+    implementation 'com.google.protobuf:protobuf-java-util:3.6.1'
+    implementation 'commons-io:commons-io:2.8.0'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    implementation'org.aspectj:aspectjweaver:1.9.7'
+    implementation 'org.aspectj:aspectjrt:1.9.7'
+
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.mockito:mockito-core:2.23.4'
+    testImplementation 'org.powermock:powermock-module-junit4:1.7.4'
+    testImplementation 'org.powermock:powermock-api-mockito2:1.7.4'
+
+    implementation 'org.apache.tika:tika-parsers:1.11'
+
+    if (JavaVersion.current().isJava9Compatible()) {
+        implementation 'javax.annotation:javax.annotation-api:1.3.1'
+    }
+
+    protobuf files("$rootProject.projectDir/ext/proto/")
+
+}
+sourceSets {
+    test {
+        java {
+            srcDirs = ['src/test']
+        }
+    }
+}
+protobuf {
+    protoc {
+        // The artifact spec for the Protobuf Compiler
+        artifact = 'com.google.protobuf:protoc:3.6.1'
+    }
+    plugins {
+        // Optional: an artifact spec for a protoc plugin, with "grpc" as
+        // the identifier, which can be referred to in the "plugins"
+        // container of the "generateProtoTasks" closure.
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.15.1'
+        }
+    }
+    generateProtoTasks {
+        ofSourceSet('main').configureEach {
+            plugins {
+                // Apply the "grpc" plugin whose spec is defined above, without
+                // options.  Note the braces cannot be omitted, otherwise the
+                // plugin will not be added. This is because of the implicit way
+                // NamedDomainObjectContainer binds the methods.
+                grpc {}
+            }
+        }
+    }
+}

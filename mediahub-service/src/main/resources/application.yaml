@@ -1,0 +1,36 @@
+spring:
+
+  application:
+    name: woven-storage
+
+  jmx:
+    enable: true
+    server:
+      host: localhost
+
+## simple single instance of mongoDB
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: media-storage
+      username: media-app
+      password: qwaszx12
+
+
+## Defines the server port where the grpc service we'll be found
+server:
+  port: 50060
+
+## Defines the size for the buffer for media streaming
+## defining a small size will reduce memory utilization, until certain point, but will increase read to DB.
+## we need to assess and find a balance for it
+app:
+  media:
+    buffer:
+      size: 256000
+
+logging:
+  level:
+    jp:
+      woven: DEBUG

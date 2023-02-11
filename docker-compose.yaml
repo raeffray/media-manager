@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  database-service:
+    image: docker.io/raeffray/mongodb:latest
+    container_name: medias-db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: adminuser
+      MONGO_INITDB_ROOT_PASSWORD: qwaszx12
+      MONGO_INITDB_DATABASE: media-storage
+      MONGO_INITDB_NET_BUFFER_POOL_SIZE: 0
+    ports:
+      - "27017:27017"
+    command: --auth
